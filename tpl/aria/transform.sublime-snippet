@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+transform: {
+    toWidget: function(${1:value}) {
+        ${2:return ${1:value};}
+    },
+    fromWidget: function (${3:value}) {
+        ${4:return ${3:value};}
+    }
+}
+]]></content>
+    <tabTrigger>transform</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>toWidget, fromWidget...</description>
+</snippet>

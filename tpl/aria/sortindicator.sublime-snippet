@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+{@aria:SortIndicator {
+    id: "${1:myId}",
+    label: ${2:"myLabel"},
+    view: ${3:myView},
+    sortName: "${4:mySorting}",
+    sortKeyGetter: "${5:attribute}",
+    onclick: {
+        fn: ${6:this.clickHandler},
+        scope: ${7:this}
+    }
+} /}
+]]></content>
+    <tabTrigger>sortindicator</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{@aria:SortIndicator {...</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+{if ${1:condition1}}
+    ${2:\${${1}\}}
+{elseif ${3:condition2} /}
+    ${4:\${${3}\}}
+{else /}
+    ${5}
+{/if}
+]]></content>
+    <tabTrigger>elseif</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{if elseif...</description>
+</snippet>

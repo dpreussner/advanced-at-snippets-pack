@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+{id "${1:myId}" /}
+]]></content>
+    <tabTrigger>id</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{id...</description>
+</snippet>

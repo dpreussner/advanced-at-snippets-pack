@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+{@aria:Dialog {
+    id: "${1:myId}",
+    title: ${2:"myTitle"},
+    macro: "${3:myMacro}",
+    width: ${4:500},
+    maxHeight: ${5:500},
+    modal: ${6:true}
+}/}
+]]></content>
+    <tabTrigger>dialog</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{@aria:Dialog {...</description>
+</snippet>

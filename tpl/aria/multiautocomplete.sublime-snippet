@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+{@aria:MultiAutoComplete {
+    id: "${1:myId}",
+    label: ${2:"myLabel"},
+    expandButton: ${3:true},
+    freeText: ${4:true},
+    resourcesHandler: ${5:this.myResourceHandler},
+    bind: {
+        value: {
+            to: "${6:attribute}",
+            inside: ${7:this.data}
+        }
+    }
+} /}
+]]></content>
+    <tabTrigger>multiautocomplete</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{@aria:MultiAutoComplete {...</description>
+</snippet>

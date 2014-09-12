@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+{@aria:RadioButton {
+    id: "${1:myId}",
+    label: ${2:"myLabel"},
+    keyValue: "${3:myKey}",
+    block: ${4:true},
+    bind: {
+        value: {
+            to: "${5:attribute}",
+            inside: ${6:this.data}
+        }
+    }
+} /}
+]]></content>
+    <tabTrigger>radiobutton</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{@aria:RadioButton {...</description>
+</snippet>

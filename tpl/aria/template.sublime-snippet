@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+{@aria:Template {
+    id:"${1:templateId}",
+    defaultTemplate: "${2:classpath}",
+    data: {
+        ${3:"hello": "world"}
+    }
+} /}
+]]></content>
+    <tabTrigger>template</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{@aria:Template {...</description>
+</snippet>

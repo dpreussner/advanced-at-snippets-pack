@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+{@aria:SelectBox {
+    id: "${1:myId}",
+    label: ${2:"myLabel"},
+    options: ${3:this.data.options},
+    bind: {
+        value: {
+            to: "${4:attribute}",
+            inside: ${5:this.data}
+        }
+    }
+} /}
+]]></content>
+    <tabTrigger>selectbox</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{@aria:SelectBox {...</description>
+</snippet>

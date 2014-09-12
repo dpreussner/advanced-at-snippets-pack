@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+{@aria:Gauge {
+    id: "${1:myId}",
+    label: ${2:"myLabel"},
+    minValue: ${3:-100},
+    maxValue: ${4:100},
+    bind: {
+        currentValue: {
+            to: "${5:attribute}",
+            inside: ${6:this.data}
+        }
+    }
+} /}
+]]></content>
+    <tabTrigger>gauge</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{@aria:Gauge {...</description>
+</snippet>

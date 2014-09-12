@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+{repeater {
+    id: "${1}",
+    content: ${2:this.data.myArray},
+    loopType: "${3:array}",
+    type: "${4:tbody}",
+    childSections: {
+        id: "${5:myChildSection}",
+        macro: {
+            name: "${6:myMacro}",
+            args: [${7}]
+        },
+        type: "${8:TR}"
+    }
+}/}
+
+{macro ${6:myMacro}(args)}
+{/macro}
+]]></content>
+    <tabTrigger>repeater</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{repeater {...</description>
+</snippet>

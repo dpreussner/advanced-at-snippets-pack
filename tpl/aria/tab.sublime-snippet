@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+{@aria:Tab {
+    tabId: "${1:myId}",
+    selectedTab: "${2:myId}",
+    bind: {
+        selectedTab : {
+            to: "${3:attribute}",
+            inside: ${4:this.data}
+        }
+    }
+}}
+    ${5:tabLabel}
+{/@aria:Tab}
+]]></content>
+    <tabTrigger>tab</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{@aria:Tab {...</description>
+</snippet>

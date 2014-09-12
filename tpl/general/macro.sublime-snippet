@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+{macro ${1:macroName}(${2:args})}
+    ${3}
+{/macro}
+]]></content>
+    <tabTrigger>macro</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{macro...</description>
+</snippet>

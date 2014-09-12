@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+bindRefreshTo : [{
+    to: "${1:attribute}",
+    inside: ${2:this.data},
+    recursive: ${3:true}
+}]
+]]></content>
+    <tabTrigger>bindrefresh</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{to, inside, recursive}</description>
+</snippet>

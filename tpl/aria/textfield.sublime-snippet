@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+{@aria:TextField {
+    id: "${1:myId}",
+    label: ${2:"myLabel"},
+    bind: {
+        value: {
+            to: "${3:attribute}",
+            inside: ${4:this.data}
+        }
+    }
+} /}
+]]></content>
+    <tabTrigger>textfield</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{@aria:TextField {...</description>
+</snippet>

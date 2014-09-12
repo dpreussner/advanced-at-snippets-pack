@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+{set ${1:myVar} = ${2:true} /}
+]]></content>
+    <tabTrigger>set</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{set x =...</description>
+</snippet>

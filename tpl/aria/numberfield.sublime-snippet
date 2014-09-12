@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+{@aria:NumberField {
+    id: "${1:myId}",
+    label: ${2:"myLabel"},
+    pattern: "${3:00.00}",
+    bind: {
+        value: {
+            to: "${4:attribute}",
+            inside: ${5:this.data}
+        }
+    }
+} /}
+]]></content>
+    <tabTrigger>numberfield</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{@aria:NumberField {...</description>
+</snippet>

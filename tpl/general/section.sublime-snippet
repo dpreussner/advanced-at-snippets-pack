@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+{section {
+    id: "${1}",
+    macro: "${2}",
+    bindRefreshTo: [{
+        to: "${3}",
+        inside: ${4:this.data}
+    }]
+} /}
+]]></content>
+    <tabTrigger>section</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{section {...</description>
+</snippet>

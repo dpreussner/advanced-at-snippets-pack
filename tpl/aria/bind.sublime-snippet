@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+bind: {
+    ${1:value}: {
+        to: "${2:attribute}",
+        inside: ${3:this.data}
+    }
+}
+]]></content>
+    <tabTrigger>bind</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{to, inside}</description>
+</snippet>

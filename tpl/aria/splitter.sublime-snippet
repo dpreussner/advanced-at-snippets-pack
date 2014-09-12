@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+{@aria:Splitter {
+    id: "${1:myId}",
+    orientation: "${2:horizontal}",
+    border: ${3:true},
+    height: ${4:400},
+    width: ${5:400},
+    size1: ${6:200},
+    size2: ${7:200},
+    adapt: "${8:both}",
+    macro1: "${9:macro1}",
+    macro2: "${10:macro2}"
+}}
+{/@aria:Splitter}
+]]></content>
+    <tabTrigger>splitter</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{@aria:Splitter {...</description>
+</snippet>

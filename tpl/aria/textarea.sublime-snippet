@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+{@aria:Textarea {
+    id: "${1:myId}",
+    label: ${2:"myLabel"},
+    width: ${3:200},
+    height: ${4:200},
+    bind: {
+        value: {
+            to: "${5:attribute}",
+            inside: ${6:this.data}
+        }
+    }
+} /}
+]]></content>
+    <tabTrigger>textarea</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{@aria:Textarea {...</description>
+</snippet>

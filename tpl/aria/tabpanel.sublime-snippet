@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+{@aria:TabPanel {
+    id: "${1:myId}",
+    macro: "${2:myMacro}",
+    bind: {
+        selectedTab : {
+            to: "${3:attribute}",
+            inside: ${4:this.data}
+        }
+    }
+} /}
+]]></content>
+    <tabTrigger>tabpanel</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{@aria:TabPanel {...</description>
+</snippet>

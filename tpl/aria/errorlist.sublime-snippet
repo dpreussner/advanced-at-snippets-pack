@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+{@aria:ErrorList {
+    id: "${1:myId}",
+    title: ${2:"myTitle"},
+    filterTypes: ['${3:E}'],
+    bind: {
+        messages: {
+            to: "${4:attribute}",
+            inside: ${5:this.data}
+        }
+    }
+} /}
+]]></content>
+    <tabTrigger>errorlist</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{@aria:ErrorList {...</description>
+</snippet>

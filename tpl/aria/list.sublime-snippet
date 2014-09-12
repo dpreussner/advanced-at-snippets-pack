@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+{@aria:List {
+    id: "${1:myId}",
+    label: ${2:"myLabel"},
+    bind: {
+        items: {
+            to: "${3:attribute}",
+            inside: ${4:this.data}
+        }
+    },
+    onchange: {
+        fn: ${5:this.clickHandler},
+        scope: ${6:this}
+    }
+} /}
+]]></content>
+    <tabTrigger>list</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{@aria:List {...</description>
+</snippet>

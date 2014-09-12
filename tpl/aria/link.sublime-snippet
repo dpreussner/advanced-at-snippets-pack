@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+{@aria:Link {
+    id: "${1:myId}",
+    label: ${2:"Submit"},
+    onclick: {
+        fn: ${4:this.clickHandler},
+        scope: ${5:this}
+    }
+} /}
+]]></content>
+    <tabTrigger>link</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{@aria:Link {...</description>
+</snippet>

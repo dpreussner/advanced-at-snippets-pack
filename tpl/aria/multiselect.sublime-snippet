@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+{@aria:MultiSelect {
+    id: "${1:myId}",
+    label: ${2:"myLabel"},
+    items: ${3:this.data.items},
+    fieldDisplay: "${4:attribute}",
+    fieldSeparator: "${5:,}",
+    bind: {
+        value: {
+            to: "${6:attribute}",
+            inside: ${7:this.data}
+        }
+    }
+} /}
+]]></content>
+    <tabTrigger>multiselect</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{@aria:MultiSelect {...</description>
+</snippet>

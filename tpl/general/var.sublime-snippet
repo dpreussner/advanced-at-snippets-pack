@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+{var ${1:myVar} = ${2:true} /}
+]]></content>
+    <tabTrigger>var</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{var x =...</description>
+</snippet>

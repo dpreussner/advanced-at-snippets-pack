@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+{createView ${1:myView} on ${2:this.data.myArray} /}
+]]></content>
+    <tabTrigger>view</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{createView...</description>
+</snippet>

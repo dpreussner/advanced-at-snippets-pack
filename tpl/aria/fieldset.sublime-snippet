@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+{@aria:Fieldset {
+    id: "${1:myId}",
+    label: ${2:"myLabel"}
+}}
+    ${3}
+{/@aria:Fieldset}
+]]></content>
+    <tabTrigger>fieldset</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{@aria:Fieldset {...</description>
+</snippet>

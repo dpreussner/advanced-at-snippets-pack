@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+{@aria:Calendar {
+    id: "${1:myId}",
+    label: ${2:"myLabel"},
+    numberOfUnits: ${3:1},
+    bind: {
+        value: {
+            to: "${4:attribute}",
+            inside: ${5:this.data}
+        }
+    }
+} /}
+]]></content>
+    <tabTrigger>calendar</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{@aria:Calendar {...</description>
+</snippet>

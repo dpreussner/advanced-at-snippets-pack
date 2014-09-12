@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+{@aria:CheckBox {
+    id: "${1:myId}",
+    label: ${2:"myLabel"},
+    bind: {
+        value: {
+            to: "${3:attribute}",
+            inside: ${4:this.data}
+        }
+    }
+} /}
+]]></content>
+    <tabTrigger>checkbox</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{@aria:CheckBox {...</description>
+</snippet>

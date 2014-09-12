@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+{@aria:Tooltip {
+    id: "${1:myId}",
+    width: ${2:200},
+    macro: "${3:myLabel}"
+} /}
+]]></content>
+    <tabTrigger>tooltip</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>{@aria:Tooltip {...</description>
+</snippet>
