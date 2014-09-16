@@ -6,8 +6,6 @@ A collection of sublime text editor snipptes for the [Aria Templates Framework](
 
 ## Sublime Package Control
 
-In progress...
-
 Simply search for "Advanced Aria Templates snippets pack"
 
 ## Manual
