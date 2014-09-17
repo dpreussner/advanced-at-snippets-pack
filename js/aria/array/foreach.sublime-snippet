@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Array.forEach(${1:array}, function(${2:item}) {
+    ${4}
+}, ${3:this});
+]]></content>
+    <tabTrigger>ariaArrayForEach</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Array.forEach...</description>
+</snippet>

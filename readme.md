@@ -75,3 +75,14 @@ For every widget in the @aria Library there is a snippet which corresponds to th
     bind
     bindrefresh
     transform
+
+## aria.utils.Array (.js)
+
+    ariaArrayClone
+    ariaArrayContains
+    ariaArrayFilter
+    ariaArrayForEach
+    ariaArrayIndexOf
+    ariaArrayIsEmpty
+    ariaArrayRemove
+    ariaArrayRemoveAt

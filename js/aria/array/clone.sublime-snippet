@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Array.clone(${1:array})
+]]></content>
+    <tabTrigger>ariaArrayClone</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Array.clone...</description>
+</snippet>

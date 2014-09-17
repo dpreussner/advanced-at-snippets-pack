@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Array.removeAt(${1:array}, {2:position})
+]]></content>
+    <tabTrigger>ariaArrayRemoveAt</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Array.removeAt...</description>
+</snippet>

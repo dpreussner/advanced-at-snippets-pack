@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Array.filter(${1:array}, function(${2:item}) {
+    ${4:return ${2}? true : false;}
+}, ${3:this});
+]]></content>
+    <tabTrigger>ariaArrayFilter</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Array.filter...</description>
+</snippet>

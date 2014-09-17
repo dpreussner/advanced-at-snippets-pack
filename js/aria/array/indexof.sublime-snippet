@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Array.indexOf(${1:array}, {2:item})
+]]></content>
+    <tabTrigger>ariaArrayIndexOf</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Array.indexOf...</description>
+</snippet>

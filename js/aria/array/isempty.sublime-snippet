@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Array.isEmpty(${1:array})
+]]></content>
+    <tabTrigger>ariaArrayIsEmpty</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Array.isEmpty...</description>
+</snippet>
