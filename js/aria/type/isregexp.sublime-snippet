@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Type.isRegExp(${1:item})
+]]></content>
+    <tabTrigger>ariaTypeIsRegExp</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Type.isRegExp...</description>
+</snippet>

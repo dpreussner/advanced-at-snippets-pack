@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Type.isArray(${1:item})
+]]></content>
+    <tabTrigger>ariaTypeIsArray</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Type.isArray...</description>
+</snippet>

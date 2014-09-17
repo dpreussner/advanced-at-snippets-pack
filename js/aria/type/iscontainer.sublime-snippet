@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Type.isContainer(${1:item})
+]]></content>
+    <tabTrigger>ariaTypeIsContainer</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Type.isContainer...</description>
+</snippet>

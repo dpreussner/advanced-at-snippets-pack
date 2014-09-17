@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Type.isCallback(${1:item})
+]]></content>
+    <tabTrigger>ariaTypeIsCallback</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Type.isCallback...</description>
+</snippet>

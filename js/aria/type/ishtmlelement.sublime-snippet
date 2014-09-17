@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Type.isHTMLElement(${1:item})
+]]></content>
+    <tabTrigger>ariaTypeIsHTMLElement</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Type.isHTMLElement...</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Type.isBoolean(${1:item})
+]]></content>
+    <tabTrigger>ariaTypeIsBoolean</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Type.isBoolean...</description>
+</snippet>

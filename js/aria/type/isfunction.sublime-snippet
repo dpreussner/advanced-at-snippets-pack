@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Type.isFunction(${1:item})
+]]></content>
+    <tabTrigger>ariaTypeIsFunction</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Type.isFunction...</description>
+</snippet>

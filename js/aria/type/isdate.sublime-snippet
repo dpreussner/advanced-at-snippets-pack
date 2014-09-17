@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Type.isDate(${1:item})
+]]></content>
+    <tabTrigger>ariaTypeIsDate</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Type.isDate...</description>
+</snippet>

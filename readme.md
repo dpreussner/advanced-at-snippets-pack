@@ -86,3 +86,17 @@ For every widget in the @aria Library there is a snippet which corresponds to th
     ariaArrayIsEmpty
     ariaArrayRemove
     ariaArrayRemoveAt
+
+## aria.utils.Type (.js)
+
+    ariaTypeIsArray
+    ariaTypeIsBoolean
+    ariaTypeIsCallback
+    ariaTypeIsContainer
+    ariaTypeIsDate
+    ariaTypeIsFunction
+    ariaTypeIsHTMLElement
+    ariaTypeIsNumber
+    ariaTypeIsObject
+    ariaTypeIsRegExp
+    ariaTypeIsString

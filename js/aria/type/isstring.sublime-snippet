@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Type.isString(${1:item})
+]]></content>
+    <tabTrigger>ariaTypeIsString</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Type.isString...</description>
+</snippet>
