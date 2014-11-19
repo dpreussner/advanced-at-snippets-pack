@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Json.add(${1:array}, ${2:object}, ${3:index})
+]]></content>
+    <tabTrigger>ariaJsonAdd</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Json.add...</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Json.contains(${1:object}, ${2:object})
+]]></content>
+    <tabTrigger>ariaJsonContains</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Json.contains...</description>
+</snippet>

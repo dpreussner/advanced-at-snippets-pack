@@ -100,3 +100,12 @@ For every widget in the @aria Library there is a snippet which corresponds to th
     ariaTypeIsObject
     ariaTypeIsRegExp
     ariaTypeIsString
+
+## aria.utils.Json (.js)
+
+    ariaJsonAdd
+    ariaJsonContains
+    ariaJsonCopy
+    ariaJsonEquals
+    ariaJsonInject
+    ariaJsonSetValue

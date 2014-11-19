@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Json.equals(${1:object}, ${2:object})
+]]></content>
+    <tabTrigger>ariaJsonEquals</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Json.equals...</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Json.copy(${1:object}, ${2:recursive})
+]]></content>
+    <tabTrigger>ariaJsonCopy</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Json.copy...</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Json.setValue(${1:this.data}, "${2:attribute}", ${3:value})
+]]></content>
+    <tabTrigger>ariaJsonSetValue</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Json.setValue...</description>
+</snippet>

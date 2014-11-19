@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 {foreach ${1:item} inArray ${2:this.data.itemArray}}
-    ${3:\${${1:item}\}}
+    ${3:\${${1:item}_index\} \${${1:item}\}}
 {/foreach}
 ]]></content>
     <tabTrigger>foreach</tabTrigger>

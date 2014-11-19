@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Json.inject(${1:sourceObject}, ${2:targetObject}, ${3:true})
+]]></content>
+    <tabTrigger>ariaJsonInject</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Json.inject...</description>
+</snippet>
