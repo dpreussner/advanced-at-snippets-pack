@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-aria.utils.Array.contains(${1:array}, {2:item})
+aria.utils.Array.contains(${1:array}, ${2:item})
 ]]></content>
     <tabTrigger>ariaArrayContains</tabTrigger>
     <scope>source.js</scope>
