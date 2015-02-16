@@ -3,9 +3,9 @@
 {@aria:Text {
     id: "${1:myId}",
     bind: {
-        value: {
-            to: "${3:attribute}",
-            inside: ${4:this.data}
+        text: {
+            to: "${2:attribute}",
+            inside: ${3:this.data}
         }
     }
 } /}
