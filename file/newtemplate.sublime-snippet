@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+{Template {
+    \$classpath: "${1:classpath}",
+    \$hasScript: true
+}}
+    {macro main()}
+        ${2}
+    {/macro}
+{/Template}
+]]></content>
+    <tabTrigger>ariaNewTemplate</tabTrigger>
+    <scope>source.tpl</scope>
+    <description>New Aria Template template file</description>
+</snippet>

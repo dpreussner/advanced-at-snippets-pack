@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+Aria.tplScriptDefinition({
+    \$classpath: "${1:classpath}",
+    \$constructor: function() {
+        ${2}
+    },
+    \$destructor: function() {
+        ${3}
+    },
+    \$prototype: {
+        ${4}
+    }
+});
+]]></content>
+    <tabTrigger>ariaNewTemplateScript</tabTrigger>
+    <scope>source.js</scope>
+    <description>New Aria Template template script file</description>
+</snippet>

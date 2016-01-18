@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+Aria.tplScriptDefinition({
+    \$classpath: "${1:classpath}",
+    \$extends : "aria.templates.ModuleCtrl",
+    \$implements: ["${2:interface}"]
+    \$constructor: function() {
+        ${3}
+    },
+    \$destructor: function() {
+        ${4}
+    },
+    \$prototype: {
+        \$publicInterfaceName: "${5:}",
+
+        ${6}
+    }
+});
+]]></content>
+    <tabTrigger>ariaNewModuleController</tabTrigger>
+    <scope>source.js</scope>
+    <description>New Aria Template module controller file</description>
+</snippet>

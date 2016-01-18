@@ -18,6 +18,12 @@ Clone the repository inside your Sublime Text `Packages/User` folder (see `Prefe
 
 Following snipptes are available:
 
+## File Templates (.js, .tpl)
+
+    ariaNewTemplate
+    ariaNewTemplateScript
+    ariaNewModuleController
+
 ## Template statements (.tpl)
 
 See the [Aria Templates guide for writing templates](http://ariatemplates.com/usermanual/latest/writing_templates) for further reference on the basic template statements.
