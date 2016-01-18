@@ -3,7 +3,7 @@
 Aria.classDefinition({
     \$classpath: "${1:classpath}",
     \$extends : "aria.templates.ModuleCtrl",
-    \$implements: ["${2:interface}"]
+    \$implements: ["${2:interface}"],
     \$constructor: function() {
         ${3}
     },
