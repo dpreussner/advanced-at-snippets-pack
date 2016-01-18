@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Json.addListener(${1:container}, ${2:property}, ${3:callback}, ${4:throwError}, ${5:recursive})
+]]></content>
+    <tabTrigger>ariaJsonAddListener</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Json.addListener...</description>
+</snippet>

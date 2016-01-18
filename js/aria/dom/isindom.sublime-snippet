@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Dom.isInDom(${1:node})
+]]></content>
+    <tabTrigger>ariaDomIsInDom</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Dom.isInDom...</description>
+</snippet>

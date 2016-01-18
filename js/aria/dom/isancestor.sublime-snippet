@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Dom.isAncestor(${1:childNode}, ${2:parentNode})
+]]></content>
+    <tabTrigger>ariaDomIsAncestor</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Dom.isAncestor...</description>
+</snippet>

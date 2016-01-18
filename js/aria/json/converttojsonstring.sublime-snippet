@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Json.convertToJsonString(${1:item})
+]]></content>
+    <tabTrigger>ariaJsonConvertToJsonString</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Json.convertToJsonString...</description>
+</snippet>

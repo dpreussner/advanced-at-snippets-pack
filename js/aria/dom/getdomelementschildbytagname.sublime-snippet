@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Dom.getDomElementsChildByTagName(${1:parentNode}, ${2:tagName})
+]]></content>
+    <tabTrigger>ariaDomGetDomElementsChildByTagName</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Dom.getDomElementsChildByTagName...</description>
+</snippet>

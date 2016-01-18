@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Dom.getElementById(${1:id})
+]]></content>
+    <tabTrigger>ariaDomGetElementById</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Dom.getElementById...</description>
+</snippet>

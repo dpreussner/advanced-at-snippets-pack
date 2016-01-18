@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Json.load(${1:string})
+]]></content>
+    <tabTrigger>ariaJsonLoad</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Json.load...</description>
+</snippet>

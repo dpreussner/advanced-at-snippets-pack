@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+aria.utils.Json.isMetadata(${1:property})
+]]></content>
+    <tabTrigger>ariaJsonIsMetadata</tabTrigger>
+    <scope>source.js</scope>
+    <description>aria.utils.Json.isMetadata...</description>
+</snippet>
