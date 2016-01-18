@@ -104,8 +104,21 @@ For every widget in the @aria Library there is a snippet which corresponds to th
 ## aria.utils.Json (.js)
 
     ariaJsonAdd
+    ariaJsonAddListener
     ariaJsonContains
     ariaJsonCopy
     ariaJsonEquals
     ariaJsonInject
     ariaJsonSetValue
+    ariaJsonConvertToJsonString
+    ariaJsonIsMetadata
+    ariaJsonLoad
+
+## aria.utils.Dom (.js)
+
+    ariaDomGetDomElementChild
+    ariaDomGetDomElementsChildByTagName
+    ariaDomGetElementById
+    ariaDomGetElementsByClassName
+    ariaDomIsAncestor
+    ariaDomIsInDom
